@@ -18,6 +18,7 @@ const keyNames: Dictionary<string | string[]> = {
 };
 
 const modifierKey: string[] = ["shift", "alt", "ctrl", "meta"];
+const mac = navigator.userAgent.includes("Macintosh");
 
 export default (e: KeyboardEvent, combos: string | string[]): boolean => {
   if (typeof combos === "string") {
@@ -25,7 +26,6 @@ export default (e: KeyboardEvent, combos: string | string[]): boolean => {
   }
 
   // special for macOS
-  const mac = navigator.userAgent.includes("Macintosh");
   const modifiers: Dictionary<boolean> = {
     shift: e.shiftKey,
     alt: e.altKey,
