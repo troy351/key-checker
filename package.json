@@ -1,0 +1,6 @@
+{
+  "name": "key-checker",
+  "version": "1.0.0",
+  "description": "A Library to check if the given KeyboardEvent matches the certain shortcuts",
+  "author": "troy"
+}
