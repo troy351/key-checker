@@ -14,6 +14,7 @@ const keyNames = {
 };
 
 const modifierKey = ["shift", "alt", "ctrl", "meta"];
+const mac = navigator.userAgent.includes("Macintosh");
 
 export default (e, combos) => {
   if (typeof combos === "string") {
@@ -21,7 +22,6 @@ export default (e, combos) => {
   }
 
   // special for macOS
-  const mac = navigator.userAgent.includes("Macintosh");
   const modifiers = {
     shift: e.shiftKey,
     alt: e.altKey,
