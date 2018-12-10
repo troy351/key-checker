@@ -4,12 +4,12 @@ const keyNames = {
   esc: ["Esc", "Escape"],
   tab: "Tab",
   enter: "Enter",
-  space: [' ', 'Spacebar'],
+  space: [" ", "Spacebar"],
   up: ["Up", "ArrowUp"],
   left: ["Left", "ArrowLeft"],
   right: ["Right", "ArrowRight"],
   down: ["Down", "ArrowDown"],
-  delete: ['Delete', 'Del'],
+  delete: ["Delete", "Del"],
   backspace: "Backspace"
 };
 
