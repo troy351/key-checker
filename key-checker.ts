@@ -8,12 +8,12 @@ const keyNames: Dictionary<string | string[]> = {
   esc: ["Esc", "Escape"],
   tab: "Tab",
   enter: "Enter",
-  space: " ",
+  space: [" ", "Spacebar"],
   up: ["Up", "ArrowUp"],
   left: ["Left", "ArrowLeft"],
   right: ["Right", "ArrowRight"],
   down: ["Down", "ArrowDown"],
-  delete: "Delete",
+  delete: ["Delete", "Del"],
   backspace: "Backspace"
 };
 
